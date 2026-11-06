@@ -1,0 +1,99 @@
+# Multilingual file for TOS 7 Docker application. All 14 languages are REQUIRED.
+
+[en-us]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[zh-cn]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome 是运行在 TNAS 上的自建音乐服务器与流媒体服务。它会扫描你自己的音乐目录并读取标签，让任意浏览器或兼容 Subsonic 的客户端播放曲库，支持播放列表、智能播放列表、收藏、听歌记录与封面，无需云账号或订阅。"
+release_note = "1. Initial release."
+important = "请先把音乐文件放入应用数据目录下的 music/ 文件夹，然后打开网页界面创建第一个账号，首位注册的用户即为管理员。需先在应用中心安装并启用 DockerEngine。"
+
+[zh-hk]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome 是运行在 TNAS 上的自建音乐服务器与流媒体服务。它会扫描你自己的音乐目录并读取标签，让任意浏览器或兼容 Subsonic 的客户端播放曲库，支持播放列表、智能播放列表、收藏、听歌记录与封面，无需云账号或订阅。"
+release_note = "1. Initial release."
+important = "请先把音乐文件放入应用数据目录下的 music/ 文件夹，然后打开网页界面创建第一个账号，首位注册的用户即为管理员。需先在应用中心安装并启用 DockerEngine。"
+
+[fr-fr]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[de-de]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[it-it]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[es-es]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[hu-hu]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[ja-jp]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[ko-kr]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[pl-pl]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[ru-ru]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[tr-tr]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
+
+[pt-pt]
+name = "Navidrome"
+auth = "waskevin"
+descript = "Navidrome is a self-hosted music server and streamer for your TNAS. It scans your own music folder, reads the tags, and lets every browser or any Subsonic-compatible app play your library with playlists, smart playlists, favourites, scrobbling and cover art - no cloud account and no subscription."
+release_note = "1. Initial release."
+important = "Put your music files into the music/ folder of the application data directory, then open the web UI and create the first account - the first registered user becomes the administrator. Docker Engine must be installed and enabled from the TOS App Center."
