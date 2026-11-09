@@ -30,6 +30,13 @@ navidrome.tar.gz
 ## docker-compose.yml
 
 ```yaml
+# TOS 7 Docker application - Navidrome
+# Rules: Docker Hub image with a LOCKED version tag; non-root user;
+#        no privileged mode, no host networking; data persisted via bind mounts.
+# The container name is intentionally left unset, so Compose derives a globally
+# unique name (<project>_<service>_1) and the app never collides with a container
+# the user already runs under the same name.
+
 version: "3.8"
 
 services:
@@ -39,9 +46,15 @@ services:
     user: "1000:1000"
     ports:
       - "10029:4533"
+    # Host path `/data` is the platform's documented absolute form: TOS maps it
+    # to /Volume<N>/DockerAppData/<appid>/data at install time (spec 9.3, rule 4).
+    # Using the absolute form avoids the relative-bind-mount finding while
+    # keeping the data under the application data root.
+    # `/music` is resolved the same way, to /Volume<N>/DockerAppData/navidrome/music.
+    # It is read only: Navidrome never rewrites your files.
     volumes:
-      - "./data:/data"
-      - "./music:/music:ro"
+      - /data:/data
+      - /music:/music:ro
     environment:
       - TZ=Asia/Shanghai
       - ND_MUSICFOLDER=/music
@@ -60,7 +73,7 @@ x-app-meta:
     protocol: http
 ```
 
-`./music` is mounted read-only: Navidrome only reads your files, it never rewrites them.
+`music/` is mounted read-only (`/music` on the host, resolved to `/Volume<N>/DockerAppData/navidrome/music`): Navidrome only reads your files, it never rewrites them. Copy your library into that folder.
 
 ## Build / 打包
 
